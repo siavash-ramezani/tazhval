@@ -1,0 +1,9 @@
+.footer {
+  background: #613f75;
+  width: 100%;
+  height: 300px;
+}
+ul {
+  list-style: none;
+  color: white;
+}
