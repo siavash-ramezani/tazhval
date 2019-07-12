@@ -5,7 +5,7 @@ class Menu extends Component {
 
   render() {
     return (
-      <Row className="justify-content-end">
+      <Row className="justify-content-end mx-0">
         <Navbar expand="lg" style={{ float: "right" }}>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse className="mr-2" id="basic-navbar-nav">

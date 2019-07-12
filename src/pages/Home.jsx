@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Menu from "../components/Menu";
 import Footer from "../components/Footer";
 import { Container } from "react-bootstrap";
+import Slider from "../components/Slider";
 
 class Home extends Component {
   state = {};
@@ -9,7 +10,7 @@ class Home extends Component {
     return (
       <div>
         <Container fluid="true" className="px-0">
-          <Menu />
+          <Slider />
           <Footer />
         </Container>
       </div>
