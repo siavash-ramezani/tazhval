@@ -1,8 +1,9 @@
 import React, { Component } from "react";
-import Menu from "../components/Menu";
 import Footer from "../components/Footer";
 import { Container } from "react-bootstrap";
 import Slider from "../components/Slider";
+import ServiceCards from "../components/ServiceCards";
+import Title from "../components/Title";
 
 class Home extends Component {
   state = {};
@@ -11,6 +12,8 @@ class Home extends Component {
       <div>
         <Container fluid="true" className="px-0">
           <Slider />
+          <Title title="Our Services" />
+          <ServiceCards />
           <Footer />
         </Container>
       </div>

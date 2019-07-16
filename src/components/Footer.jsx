@@ -12,6 +12,7 @@ class Footer extends Component {
               <img
                 src={require("../assets/images/footer-left.png")}
                 className="footer-left"
+                alt="footer photos"
               />
             </Col>
             <Col>
@@ -32,6 +33,7 @@ class Footer extends Component {
               <img
                 src={require("../assets/images/footer-right.png")}
                 className="footer-right"
+                alt="footer photos"
               />
             </Col>
           </Row>
@@ -39,18 +41,22 @@ class Footer extends Component {
             <img
               src={require("../assets/images/mail-icon.png")}
               className="mx-3 footer-icons"
+              alt="mail icon"
             />
             <img
               src={require("../assets/images/instagram-icon.png")}
               className="mx-3 footer-icons"
+              alt="instagram icon"
             />
             <img
               src={require("../assets/images/facebook-icon.png")}
               className="mx-3 footer-icons"
+              alt="facebook icon"
             />
             <img
               src={require("../assets/images/linkedin-icon.png")}
               className="mx-3 footer-icons"
+              alt="linkedin icon"
             />
           </Row>
         </Row>
