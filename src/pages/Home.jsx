@@ -4,6 +4,7 @@ import { Container } from "react-bootstrap";
 import Slider from "../components/Slider";
 import ServiceCards from "../components/ServiceCards";
 import Title from "../components/Title";
+import OrderProcess from "../components/OrderProcess";
 
 class Home extends Component {
   state = {};
@@ -14,6 +15,8 @@ class Home extends Component {
           <Slider />
           <Title title="Our Services" />
           <ServiceCards />
+          <Title title="Order Process" />
+          <OrderProcess />
           <Footer />
         </Container>
       </div>
