@@ -5,6 +5,8 @@ import Slider from "../components/Slider";
 import ServiceCards from "../components/ServiceCards";
 import Title from "../components/Title";
 import OrderProcess from "../components/OrderProcess";
+import PortfolioSlider from "../components/PortfolioSlider";
+import NewsTeller from "../components/NewsTeller";
 
 class Home extends Component {
   state = {};
@@ -17,7 +19,9 @@ class Home extends Component {
           <ServiceCards />
           <Title title="Order Process" />
           <OrderProcess />
-          <Footer />
+          <PortfolioSlider />
+          <NewsTeller />
+          {/* <Footer /> */}
         </Container>
       </div>
     );
